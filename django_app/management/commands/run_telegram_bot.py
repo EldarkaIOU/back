@@ -1,6 +1,6 @@
 from django.core.management.base import BaseCommand
 import telebot
-from django_app.models import Car
+from import Car
 
 bot = telebot.TeleBot("5801396304:AAF2SBjR6ZkgAsqQ1m64S5fRQjrnw_s77AI")
 
